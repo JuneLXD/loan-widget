@@ -8,7 +8,7 @@
     "skipLibCheck": true,
 
     // Added
-    "jsx": "react", 
+    "jsx": "react-jsx", 
     "module": "ESNext",  
     "declaration": true,
     "declarationDir": "types",
@@ -17,5 +17,10 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
+    "baseUrl": ".",
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
   }
 }
